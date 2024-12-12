@@ -1,0 +1,62 @@
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-container button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-card {
+  width: 200px;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
